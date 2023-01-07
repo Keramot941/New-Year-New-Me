@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header & banner */
+.header-banner{
+    background-image: url(/images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    height: 775px;
+    width: 1345px
+}
+.header-banner .banner-elements{
+    position: absolute;
+    width: 525px;
+    height: 188px;
+    right: 25px;
+    top: 256px;
+    text-align: right;
+    padding-right: 120px;
+}
+.banner-elements h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+.banner-elements p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.primary-btn{
+    margin-top: 20px;
+    background: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/* Failure Section */
+.previous-year{
+    background-image: url(/images/person.png);
+    background-repeat: no-repeat;
+    height: 785px;
+    width: 1345px;
+    margin: 40px 100px;
+
+ }
+ /* Author text  styles*/
+ .failure-text{
+    padding-right: 120px;
+    padding-left: 100px;
+     text-align: left;
+     width: 180px;
+     height: 94px;
+     right: 185px;
+     top: 1026px;
+     position: absolute;
+     margin-right: 100px;
+ }
+ 
+ .failure-text h2{
+     width: 430px;
+     font-weight: 800;
+     font-size: 55px;
+ }
+ .failure-text p{
+     margin-top: 30px;
+     width: 470px;
+     height: 70px;
+     font-weight: 400;
+ }
+ .life-topic{
+     width: 430px;
+     padding: 10px;
+     font-weight: 400;
+ }
+ .icon{
+     color: #16D887;
+ }
