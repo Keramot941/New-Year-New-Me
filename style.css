@@ -5,7 +5,7 @@
 }
 /* header & banner */
 .header-banner{
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(./images/banner/banner2.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: right;
@@ -45,7 +45,7 @@
 /* Failure Section */
 .previous-year{
     
-    background-image: url(/images/person.png);
+    background-image: url(./images/person.png);
     background-repeat: no-repeat;
     height: 765px;
     width: 1238px;
@@ -124,7 +124,7 @@
 
 /* Card Banner */
 .second-banner{
-    background: url(/images/watch.png), url(/images/gradient3.png);
+    background: url(./images/watch.png), url(./images/gradient3.png);
     background-blend-mode: overlay;
     background-size: cover;
     width: 77%;
@@ -153,7 +153,7 @@
 }
 /* Added Element */
 .added-elements{
-    background: url(/images/banner.jpg);
+    background: url(./images/banner.jpg);
     background-color: rgba(238, 125, 83, 0.699);
     background-blend-mode: hard-light;
     background-size: cover;
