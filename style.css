@@ -16,7 +16,7 @@
     position: absolute;
     width: 525px;
     height: 188px;
-    right: 25px;
+    right: 37px;
     top: 256px;
     text-align: right;
     padding-right: 120px;
@@ -44,10 +44,11 @@
 
 /* Failure Section */
 .previous-year{
+    
     background-image: url(/images/person.png);
     background-repeat: no-repeat;
-    height: 785px;
-    width: 1345px;
+    height: 765px;
+    width: 1238px;
     margin: 40px 100px;
 
  }
@@ -71,7 +72,7 @@
  }
  .failure-text p{
      margin-top: 30px;
-     width: 470px;
+     width: 451px;
      height: 70px;
      font-weight: 400;
  }
@@ -83,3 +84,131 @@
  .icon{
      color: #16D887;
  }
+
+/* Plan Section */
+.My-plan{
+    margin: 15px;
+    padding-right: 90px;
+    padding-left: 90px;
+    width: 1080px;
+}
+.My-plan h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.total-plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plan{
+    text-align: center;
+}
+.plan h2{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.plan img{
+    height: 100%;
+    width: 60px;
+}
+.plan h4{
+    color: #758283;
+    font-weight: 500;
+}
+
+/* Card Banner */
+.second-banner{
+    background: url(/images/watch.png), url(/images/gradient3.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 77%;
+    height: 202px;
+    padding: 18px;
+    margin: 120px;
+
+}
+.banner-data{
+    text-align: left;
+    transform: translate(5%,42%);
+}
+.second-banner h1{
+    width: 400px;
+    color: white;
+    font-size: 35px;
+}
+.banner-data button{
+    color: orangered;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/* footer-section */
+.footer-section{
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    height: 350px;
+}
+/* footer Future Section */
+.footer-section .future{
+    width: 60%;
+    
+}
+.future h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.future p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.share-icon img{
+    height: 100%;
+    width: 30px;
+}
+/* Footer Subscribe Section */
+.footer-section .subscribe{
+    text-align:left;
+    width: 30%;
+    height: 175px;
+    
+}
+.subscribe h3{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.subscribe input{
+    width: 270px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    padding: 7px;
+}
+.subscribe button{
+    color: orangered;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 15px;
+}
